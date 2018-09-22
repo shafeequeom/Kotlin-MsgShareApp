@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--View for Each HobbieActivity-->
+<?xml version="1.0" encoding="utf-8"?><!--View for Each HobbieActivity-->
 
-<android.support.v7.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -28,7 +26,7 @@
             android:text="Title"
             android:textColor="#616161"
             android:textSize="18sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imgShare"
@@ -36,7 +34,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:src="@android:drawable/ic_menu_share"
-            android:tint="#eeeeee"/>
+            android:tint="#eeeeee" />
 
     </LinearLayout>
 
