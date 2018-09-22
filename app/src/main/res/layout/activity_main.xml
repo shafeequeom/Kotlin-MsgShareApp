@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="59dp" />
+        android:layout_marginTop="59dp"
+        android:text="Show Toast" />
 
     <EditText
         android:id="@+id/etUserMessage"
@@ -41,4 +42,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="144dp"
         android:text="Share" />
+
+    <Button
+        android:id="@+id/recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:text="Recycler View" />
 </RelativeLayout>
