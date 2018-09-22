@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import com.smartherd.msgshareapp.R
+import com.smartherd.msgshareapp.showToast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,8 +16,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnShowToast.setOnClickListener {
-            Log.i("MainActivity", "Button was clicked !")
-            Toast.makeText(this, "Button was clicked !", Toast.LENGTH_SHORT).show()
+//            Log.i("MainActivity", "Button was clicked !")
+            showToast("Button was clicked !")
         }
 
         nextActivity.setOnClickListener{
