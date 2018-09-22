@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="59dp"
-        android:text="Show Toast" />
+        android:text="@string/btn_show_toast" />
 
     <EditText
         android:id="@+id/etUserMessage"
@@ -25,14 +25,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="153dp"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        tools:ignore="LabelFor" />
 
     <Button
         android:id="@+id/nextActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Send to Next Activity" />
+        android:text="@string/btn_next_activity" />
 
     <Button
         android:id="@+id/shareButton"
@@ -41,7 +42,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="144dp"
-        android:text="Share" />
+        android:text="@string/share" />
 
     <Button
         android:id="@+id/recyclerView"
@@ -50,5 +51,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="52dp"
-        android:text="Recycler View" />
+        android:text="@string/recycler_view" />
 </RelativeLayout>

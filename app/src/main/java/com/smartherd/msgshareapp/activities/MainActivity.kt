@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnShowToast.setOnClickListener {
-            Log.i(TAG, "Button was clicked !")
-            showToast("Button was clicked !")
+            Log.i(TAG, resources.getString(R.string.btn_clicked))
+            showToast(resources.getString(R.string.btn_clicked),Toast.LENGTH_LONG)
         }
 
         nextActivity.setOnClickListener{
