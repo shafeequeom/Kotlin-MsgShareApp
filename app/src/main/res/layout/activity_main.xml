@@ -14,8 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="59dp"
-        android:text="Show Toast" />
+        android:layout_marginTop="59dp" />
 
     <EditText
         android:id="@+id/etUserMessage"
@@ -25,8 +24,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="153dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/nextActivity"
@@ -34,4 +32,13 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Send to Next Activity" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="144dp"
+        android:text="Share" />
 </RelativeLayout>
